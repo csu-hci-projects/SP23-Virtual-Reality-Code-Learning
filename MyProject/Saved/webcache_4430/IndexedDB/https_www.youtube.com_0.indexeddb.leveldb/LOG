@@ -1,0 +1,6 @@
+2023/03/24-12:36:03.299 366c Creating DB C:/Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2023/03/24-12:36:03.317 366c Reusing MANIFEST C:/Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/24-12:40:31.757 3d8c Level-0 table #5: started
+2023/03/24-12:40:31.763 3d8c Level-0 table #5: 8378 bytes OK
+2023/03/24-12:40:31.769 3d8c Delete type=0 #3
+2023/03/24-12:40:31.769 3d8c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
