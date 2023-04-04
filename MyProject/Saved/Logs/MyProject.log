@@ -1893,3 +1893,1314 @@ Script Stack (0 frames) :
 [2023.04.04-20.36.10:417][933]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 875 ms)
 [2023.04.04-20.36.10:420][933]AssetCheck: New page: Asset Save: VRTemplateMap
 [2023.04.04-20.36.10:420][933]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2023.04.04-20.42.13:073][ 32]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.04.04-20.42.13:079][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.04-20.42.13:079][ 32]PIE: New page: PIE session: VRTemplateMap (Apr 4, 2023, 8:42:13 AM)
+[2023.04.04-20.42.13:079][ 32]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.04.04-20.42.13:085][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005744s)
+[2023.04.04-20.42.13:085][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.005808s)
+[2023.04.04-20.42.13:085][ 32]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.04-20.42.13:086][ 32]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.04.04-20.42.13:086][ 32]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2023.04.04-20.42.13:093][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.04.04-20.42.13:094][ 32]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.04.04-20.42.13:094][ 32]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.04-20.42.13:094][ 32]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.04-20.42.13:094][ 32]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.04-20.42.13:094][ 32]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.04-20.42.13:094][ 32]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.04-20.42.13:094][ 32]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.04-20.42.13:094][ 32]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.04-20.42.13:094][ 32]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.04-20.42.13:094][ 32]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.04.04-20.42.13:094][ 32]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.04.04-20.42.13:094][ 32]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.04-20.42.13:096][ 32]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.04-20.42.13:113][ 32]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.04.04-20.42.13:114][ 32]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.04-20.42.13:114][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.04-20.42.13:114][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.04-20.42.13:115][ 32]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.04.04-20.42.13:115][ 32]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.04.04-20.42.13:116][ 32]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.04.04-20.42.13:117][ 32]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.04.04-20.42.13:117][ 32]LogInit: FAudioDevice initialized.
+[2023.04.04-20.42.13:117][ 32]LogAudio: Display: Audio Device (ID: 7) registered with world 'VRTemplateMap'.
+[2023.04.04-20.42.13:131][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.04-20.42.13:323][ 32]LogLoad: Game class is 'VRGameMode_C'
+[2023.04.04-20.42.13:327][ 32]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.04.04-14.42.13
+[2023.04.04-20.42.13:327][ 32]LogWorld: Bringing up level for play took: 0.003162
+[2023.04.04-20.42.13:329][ 32]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.04.04-20.42.13:331][ 32]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.04.04-20.42.13:332][ 32]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.04.04-20.42.13:333][ 32]LogBlueprintUserMessages: [button_C_1] LPIUHDFGOPHJAEPOWGIHAPEORUHJ[OIJAOIGJERPOIJOIPFJD;LHKRJPOI
+[2023.04.04-20.42.13:334][ 32]Cmd: vr.PixelDensity 1.0
+[2023.04.04-20.42.13:334][ 32]vr.PixelDensity = "1"
+[2023.04.04-20.42.13:339][ 32]PIE: Server logged in
+[2023.04.04-20.42.13:340][ 32]PIE: Play in editor total start time 0.262 seconds.
+[2023.04.04-20.42.13:379][ 32]LogViewport: Scene viewport resized to 4128x2096, mode Windowed.
+[2023.04.04-20.42.13:381][ 32]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.04.04-20.42.13:396][ 32]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.04.04-20.42.13:408][ 33]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.04.04-20.44.10:610][450]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.04.04-20.44.10:681][451]LogShaderCompilers: Display: ================================================
+[2023.04.04-20.44.10:681][451]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.04-20.44.10:681][451]LogShaderCompilers: Display: Total job queries 59, among them cache hits 6 (10.17%)
+[2023.04.04-20.44.10:681][451]LogShaderCompilers: Display: Tracking 53 distinct input hashes that result in 43 distinct outputs (81.13%)
+[2023.04.04-20.44.10:681][451]LogShaderCompilers: Display: RAM used: 0.52 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.03%
+[2023.04.04-20.44.10:681][451]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.04-20.44.10:681][451]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.04.04-20.44.10:681][451]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.04.04-20.44.10:681][451]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.04.04-20.44.10:681][451]LogShaderCompilers: Display: ================================================
+[2023.04.04-20.44.11:385][500]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.04.04-20.44.15:008][760]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.04.04-20.44.15:579][801]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.04.04-20.44.41:465][311]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.04-20.44.41:465][311]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.04.04-20.44.41:498][311]LogSlate: Window 'MyProject Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.82.0)' being destroyed
+[2023.04.04-20.44.41:502][311]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.04.04-20.44.41:502][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.04-20.44.41:504][311]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.04-20.44.41:506][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.04-20.44.41:512][311]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.04-20.44.41:512][311]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.04.04-20.44.41:512][311]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.04.04-20.44.41:514][311]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.04.04-20.44.41:519][311]LogSlate: Slate User Unregistered.  User Index 8
+[2023.04.04-20.44.41:519][311]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.04.04-20.44.41:520][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.04.04-20.44.41:584][312]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.04.04-20.45.30:688][834]LogTcpMessaging: Started Connection to '127.0.0.1:6666'
+[2023.04.04-20.48.38:740][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.04.04-20.48.38:742][ 98]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VRTemplate/Maps/VRTemplateMap' took 0.009
+[2023.04.04-20.48.38:743][ 98]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Megascans/Surfaces/Cracked_Concrete_Floor_vkoedbh/NewLevelSequence] ([1] browsable assets)...
+[2023.04.04-20.48.38:743][ 98]OBJ SavePackage: Finished generating thumbnails for package [/Game/Megascans/Surfaces/Cracked_Concrete_Floor_vkoedbh/NewLevelSequence]
+[2023.04.04-20.48.38:746][ 98]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Megascans/Surfaces/Cracked_Concrete_Floor_vkoedbh/NewLevelSequence_Auto1
+[2023.04.04-20.48.38:746][ 98]LogSavePackage: Moving '../../../../../../Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/Saved/NewLevelSequence_Auto16E5093114E824124C2CB969C86165304.tmp' to '../../../../../../Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/Saved/Autosaves/Game/Megascans/Surfaces/Cracked_Concrete_Floor_vkoedbh/NewLevelSequence_Auto1.uasset'
+[2023.04.04-20.48.38:747][ 98]LogFileHelpers: Auto-saving content packages took 0.005
+[2023.04.04-20.48.55:368][987]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.04.04-20.48.55:373][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.04-20.48.55:373][987]PIE: New page: PIE session: VRTemplateMap (Apr 4, 2023, 8:48:55 AM)
+[2023.04.04-20.48.55:373][987]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.04.04-20.48.55:378][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005144s)
+[2023.04.04-20.48.55:378][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.005176s)
+[2023.04.04-20.48.55:378][987]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.04-20.48.55:379][987]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.04.04-20.48.55:379][987]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2023.04.04-20.48.55:387][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.04.04-20.48.55:388][987]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.04.04-20.48.55:388][987]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.04-20.48.55:388][987]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.04-20.48.55:388][987]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.04-20.48.55:388][987]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.04-20.48.55:388][987]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.04.04-20.48.55:388][987]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.04-20.48.55:388][987]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.04.04-20.48.55:388][987]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.04-20.48.55:388][987]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.04.04-20.48.55:388][987]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.04.04-20.48.55:388][987]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.04-20.48.55:390][987]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.04-20.48.55:407][987]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2023.04.04-20.48.55:408][987]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.04-20.48.55:408][987]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.04-20.48.55:408][987]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.04-20.48.55:409][987]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.04.04-20.48.55:409][987]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.04.04-20.48.55:410][987]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.04.04-20.48.55:410][987]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.04.04-20.48.55:410][987]LogInit: FAudioDevice initialized.
+[2023.04.04-20.48.55:410][987]LogAudio: Display: Audio Device (ID: 8) registered with world 'VRTemplateMap'.
+[2023.04.04-20.48.55:429][987]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.04-20.48.55:615][987]LogLoad: Game class is 'VRGameMode_C'
+[2023.04.04-20.48.55:618][987]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.04.04-14.48.55
+[2023.04.04-20.48.55:618][987]LogWorld: Bringing up level for play took: 0.002191
+[2023.04.04-20.48.55:620][987]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2023.04.04-20.48.55:622][987]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.04.04-20.48.55:623][987]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.04.04-20.48.55:624][987]LogBlueprintUserMessages: [button_C_1] LPIUHDFGOPHJAEPOWGIHAPEORUHJ[OIJAOIGJERPOIJOIPFJD;LHKRJPOI
+[2023.04.04-20.48.55:625][987]Cmd: vr.PixelDensity 1.0
+[2023.04.04-20.48.55:625][987]vr.PixelDensity = "1"
+[2023.04.04-20.48.55:630][987]PIE: Server logged in
+[2023.04.04-20.48.55:631][987]PIE: Play in editor total start time 0.258 seconds.
+[2023.04.04-20.48.55:647][987]LogViewport: Scene viewport resized to 4128x2096, mode Windowed.
+[2023.04.04-20.48.55:712][987]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.04.04-20.48.55:729][987]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.04.04-20.48.55:742][988]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.04.04-20.50.52:134][346]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.04.04-20.50.53:291][429]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.04.04-20.50.56:980][694]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.04.04-20.50.57:759][750]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.04.04-20.51.49:861][490]LogShaderCompilers: Display: ================================================
+[2023.04.04-20.51.49:861][490]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.04-20.51.49:861][490]LogShaderCompilers: Display: Total job queries 69, among them cache hits 14 (20.29%)
+[2023.04.04-20.51.49:861][490]LogShaderCompilers: Display: Tracking 55 distinct input hashes that result in 44 distinct outputs (80.00%)
+[2023.04.04-20.51.49:861][490]LogShaderCompilers: Display: RAM used: 0.53 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.03%
+[2023.04.04-20.51.49:861][490]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.04-20.51.49:861][490]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.04.04-20.51.49:861][490]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.04.04-20.51.49:861][490]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.04.04-20.51.49:861][490]LogShaderCompilers: Display: ================================================
+[2023.04.04-20.51.50:384][524]LogNet: Browse: /Game/VRTemplate/Maps/VRTemplateMap
+[2023.04.04-20.51.50:384][524]LogLoad: LoadMap: /Game/VRTemplate/Maps/VRTemplateMap
+[2023.04.04-20.51.50:384][524]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.04.04-20.51.50:385][524]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.04.04-20.51.50:385][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.04-20.51.50:434][524]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.04-20.51.50:435][524]LogSlate: Slate User Unregistered.  User Index 8
+[2023.04.04-20.51.50:435][524]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.04.04-20.51.50:436][524]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.04.04-20.51.50:438][524]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.04.04-20.51.50:443][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004492s)
+[2023.04.04-20.51.50:443][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.004531s)
+[2023.04.04-20.51.50:443][524]LogAudio: Display: Audio Device (ID: 8) registered with world 'VRTemplateMap'.
+[2023.04.04-20.51.50:443][524]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.04-20.51.50:444][524]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.04.04-20.51.50:444][524]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2023.04.04-20.51.50:444][524]LogLoad: Game class is 'VRGameMode_C'
+[2023.04.04-20.51.50:445][524]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.04.04-14.51.50
+[2023.04.04-20.51.50:445][524]LogWorld: Bringing up level for play took: 0.001258
+[2023.04.04-20.51.50:447][524]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.04.04-20.51.50:448][524]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.04.04-20.51.50:448][524]LogBlueprintUserMessages: [button_C_1] LPIUHDFGOPHJAEPOWGIHAPEORUHJ[OIJAOIGJERPOIJOIPFJD;LHKRJPOI
+[2023.04.04-20.51.50:450][524]Cmd: vr.PixelDensity 1.0
+[2023.04.04-20.51.50:450][524]vr.PixelDensity = "1"
+[2023.04.04-20.51.50:450][524]LogLoad: Took 0.065123 seconds to LoadMap(/Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap)
+[2023.04.04-20.51.55:136][858]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.04.04-20.51.56:208][935]LogHMD: Warning: GetPlayAreaBounds xrGetReferenceSpaceBoundsRect with reference space XR_REFERENCE_SPACE_TYPE_STAGE failed with result XR_SPACE_BOUNDS_UNAVAILABLE. Returning zero vector.
+[2023.04.04-20.52.01:123][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.04-20.52.01:124][288]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.04.04-20.52.01:147][288]LogSlate: Window 'MyProject Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.82.0)' being destroyed
+[2023.04.04-20.52.01:185][288]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.04.04-20.52.01:186][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.04-20.52.01:189][288]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.04-20.52.01:191][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.04-20.52.01:198][288]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.04-20.52.01:198][288]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.04.04-20.52.01:198][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.04.04-20.52.01:200][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.04.04-20.52.01:205][288]LogSlate: Slate User Unregistered.  User Index 8
+[2023.04.04-20.52.01:205][288]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.04.04-20.52.01:205][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.04.04-20.52.01:230][289]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.04.04-20.53.35:768][376]LogTcpMessaging: Started Connection to '127.0.0.1:6666'
+[2023.04.04-20.53.53:732][551]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/Build.bat -Mode=QueryTargets -Output="C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/TargetInfo.json"]
+[2023.04.04-20.53.53:849][551]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/Build.bat -Mode=QueryTargets -Output="C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/TargetInfo.json"]
+[2023.04.04-20.53.53:954][551]LogDesktopPlatform: Warning: Unable to read target info for engine
+[2023.04.04-20.53.53:954][551]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="C:/Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/MyProject.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/Intermediate/TurnkeyReport_2.log" -log="C:/Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/Intermediate/TurnkeyLog_2.log" -project="C:/Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/MyProject.uproject"  -Device=Android_Multi@1WMHH860ML1242+Android_ASTC@1WMHH860ML1242'
+[2023.04.04-20.53.53:954][551]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/MyProject.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/Intermediate/TurnkeyReport_2.log" -log="C:/Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/Intermediate/TurnkeyLog_2.log" -project="C:/Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/MyProject.uproject"  -Device=Android_Multi@1WMHH860ML1242+Android_ASTC@1WMHH860ML1242" -nocompile -nocompileuat ]
+[2023.04.04-20.53.57:435][861]LogTurnkeySupport: Completed device detection: Code = 0
+[2023.04.04-20.54.28:073][512]LogSlate: Window 'SDK Not Setup' being destroyed
+[2023.04.04-20.54.28:087][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.04.04-20.54.28:089][512]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.04.04-20.54.28:122][512]LogSavePackage: Moving output files for package: /Game/Megascans/Surfaces/Cracked_Concrete_Floor_vkoedbh/NewLevelSequence
+[2023.04.04-20.54.28:123][512]LogSavePackage: Moving '../../../../../../Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/Saved/NewLevelSequenceF0578BF645DDC65FBF057C82F267FF03.tmp' to '../../../../../../Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/Content/Megascans/Surfaces/Cracked_Concrete_Floor_vkoedbh/NewLevelSequence.uasset'
+[2023.04.04-20.54.28:130][512]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 916 ms)
+[2023.04.04-20.54.33:448][512]LogTurnkeySupport: Project requires temp target (OpenXR plugin is enabled)
+[2023.04.04-20.54.33:448][512]LogLauncherProfile: Unable to use promoted target - ../../../../../../Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/Binaries/Android/UnrealGame.target does not exist.
+[2023.04.04-20.54.33:509][512]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.1/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/MyProject.uproject" Turnkey -command=VerifySdk -platform=Android -UpdateIfNeeded -EditorIO -EditorIOPort=57258  -project="C:/Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/MyProject.uproject" BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook  -project="C:/Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/MyProject.uproject"  -unrealexe="C:\Program Files\Epic Games\UE_5.1\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Android  -cookflavor=ASTC -installed -stage -archive -package -build -pak -iostore -compressed -prereqs -archivedirectory="C:/Users/claberge/Desktop"" -nocompile -nocompileuat ]
+[2023.04.04-20.54.33:530][512]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_00_StreamCache_Ver5027_MEM_65536MaxChnkSize_0000000 wave CompileSuccess...
+[2023.04.04-20.54.33:530][512]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_00_StreamCache_Ver5027_MEM_65536MaxChnkSize_0000000 wave CompileSuccess...
+[2023.04.04-20.54.33:535][512]AssetCheck: New page: Asset Save: NewLevelSequence
+[2023.04.04-20.54.33:535][512]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/Megascans/Surfaces/Cracked_Concrete_Floor_vkoedbh/NewLevelSequence.NewLevelSequence
+[2023.04.04-20.54.33:536][512]LogAudio: Display: Chunk size for SoundWave /Engine/EditorSounds/Notifications/CompileSuccess.CompileSuccess: 262144
+[2023.04.04-20.54.33:546][512]UATHelper: Packaging (Android (ASTC)): Running AutomationTool...
+[2023.04.04-20.54.33:630][513]UATHelper: Packaging (Android (ASTC)): Using bundled DotNet SDK version: 6.0.302
+[2023.04.04-20.54.33:703][513]UATHelper: Packaging (Android (ASTC)): Starting AutomationTool...
+[2023.04.04-20.54.33:714][513]UATHelper: Packaging (Android (ASTC)): Parsing command line: -ScriptsForProject=C:/Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/MyProject.uproject Turnkey -command=VerifySdk -platform=Android -UpdateIfNeeded -EditorIO -EditorIOPort=57258 -project=C:/Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/MyProject.uproject BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook -project=C:/Users/claberge/Documents/GitHub/SP23-Virtual-Reality-Code-Learning/MyProject/MyProject.uproject -unrealexe="C:\Program Files\Epic Games\UE_5.1\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Android -cookflavor=ASTC -installed -stage -archive -package -build -pak -iostore -compressed -prereqs -archivedirectory=C:/Users/claberge/Desktop -nocompile -nocompileuat
+[2023.04.04-20.54.33:767][513]UATHelper: Packaging (Android (ASTC)): Initializing script modules...
+[2023.04.04-20.54.33:905][526]UATHelper: Packaging (Android (ASTC)): Total script module initialization time: 0.14 s.
+[2023.04.04-20.54.34:155][552]UATHelper: Packaging (Android (ASTC)): Executing commands...
+[2023.04.04-20.54.34:199][557]UATHelper: Packaging (Android (ASTC)): Installed Sdk validity:
+[2023.04.04-20.54.34:209][558]UATHelper: Packaging (Android (ASTC)): Android: (Status=Invalid, Allowed_Sdk=r25b, Current_Sdk=r21d, Allowed_AutoSdk=r25b, Current_AutoSdk=, Flags="InstalledSdk_InvalidVersionExists, Platform_ValidHostPrerequisites")
+[2023.04.04-20.54.34:209][558]UATHelper: Packaging (Android (ASTC)): Will install 'Android SDK r25b'
+[2023.04.04-20.54.34:209][558]UATHelper: Packaging (Android (ASTC)): ----------------------------------------------
+[2023.04.04-20.54.34:209][558]UATHelper: Packaging (Android (ASTC)): Running 'C:\Program Files\Epic Games\UE_5.1\Engine/Extras/Android/SetupAndroid.bat android-32 30.0.3 3.10.2.4988404 25.1.8937393 -noninteractive'
+[2023.04.04-20.54.34:209][558]UATHelper: Packaging (Android (ASTC)): ----------------------------------------------
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)): Scanning for envvar changes...
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Updating process env var NDKROOT to C:\Users\claberge\AppData\Local\Android\Sdk\ndk\25.1.8937393
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Updating process env var ANDROID_SDK_HOME to C:\Users\claberge\AppData\Local\Android\Sdk
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Updating process env var NDK_ROOT to C:\Users\claberge\AppData\Local\Android\Sdk\ndk\25.1.8937393
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Updating process env var Path to C:\Users\claberge\AppData\Local\Microsoft\WindowsApps;C:\Users\claberge\AppData\Local\GitHubDesktop\bin;C:\Users\claberge\AppData\Local\Android\Sdk\platform-tools;C:\Users\claberge\AppData\Local\Android\Sdk\tools
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)): ... done! 
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Recording variable to set by caller NDKROOT=C:\Users\claberge\AppData\Local\Android\Sdk\ndk\25.1.8937393
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Recording variable to set by caller ANDROID_SDK_HOME=C:\Users\claberge\AppData\Local\Android\Sdk
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Recording variable to set by caller NDK_ROOT=C:\Users\claberge\AppData\Local\Android\Sdk\ndk\25.1.8937393
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Recording variable to set by caller Path=C:\Users\claberge\AppData\Local\Microsoft\WindowsApps;C:\Users\claberge\AppData\Local\GitHubDesktop\bin;C:\Users\claberge\AppData\Local\Android\Sdk\platform-tools;C:\Users\claberge\AppData\Local\Android\Sdk\tools
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Writing updated envvars to C:\Program Files\Epic Games\UE_5.1\Engine/Intermediate/Turnkey/PostTurnkeyVariables.bat
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)): ----------------------------------------------
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)): Finished with 0
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)): ----------------------------------------------
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)): Scanning for envvar changes...
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Updating process env var NDKROOT to C:\Users\claberge\AppData\Local\Android\Sdk\ndk\25.1.8937393
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Updating process env var ANDROID_SDK_HOME to C:\Users\claberge\AppData\Local\Android\Sdk
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Updating process env var NDK_ROOT to C:\Users\claberge\AppData\Local\Android\Sdk\ndk\25.1.8937393
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Updating process env var Path to C:\Users\claberge\AppData\Local\Microsoft\WindowsApps;C:\Users\claberge\AppData\Local\GitHubDesktop\bin;C:\Users\claberge\AppData\Local\Android\Sdk\platform-tools;C:\Users\claberge\AppData\Local\Android\Sdk\tools
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)): ... done! 
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Recording variable to set by caller NDKROOT=C:\Users\claberge\AppData\Local\Android\Sdk\ndk\25.1.8937393
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Recording variable to set by caller ANDROID_SDK_HOME=C:\Users\claberge\AppData\Local\Android\Sdk
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Recording variable to set by caller NDK_ROOT=C:\Users\claberge\AppData\Local\Android\Sdk\ndk\25.1.8937393
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Recording variable to set by caller Path=C:\Users\claberge\AppData\Local\Microsoft\WindowsApps;C:\Users\claberge\AppData\Local\GitHubDesktop\bin;C:\Users\claberge\AppData\Local\Android\Sdk\platform-tools;C:\Users\claberge\AppData\Local\Android\Sdk\tools
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)):   Writing updated envvars to C:\Program Files\Epic Games\UE_5.1\Engine/Intermediate/Turnkey/PostTurnkeyVariables.bat
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)): Cleaning Temp Paths...
+[2023.04.04-20.56.00:675][112]UATHelper: Packaging (Android (ASTC)): BUILD SUCCESSFUL
+[2023.04.04-20.56.00:685][112]UATHelper: Packaging (Android (ASTC)): Setting up ProjectParams for C:\Users\claberge\Documents\GitHub\SP23-Virtual-Reality-Code-Learning\MyProject\MyProject.uproject
+[2023.04.04-20.56.02:475][117]UATHelper: Packaging (Android (ASTC)): MyProject.uproject requires a temporary target.cs to be generated (OpenXR plugin is enabled)
+[2023.04.04-20.56.03:728][121]UATHelper: Packaging (Android (ASTC)): ********** BUILD COMMAND STARTED **********
+[2023.04.04-20.56.03:738][121]UATHelper: Packaging (Android (ASTC)): Running: C:\Program Files\Epic Games\UE_5.1\Engine\Binaries\ThirdParty\DotNet\6.0.302\windows\dotnet.exe "C:\Program Files\Epic Games\UE_5.1\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" MyProject Android Development -Project=C:\Users\claberge\Documents\GitHub\SP23-Virtual-Reality-Code-Learning\MyProject\MyProject.uproject  C:\Users\claberge\Documents\GitHub\SP23-Virtual-Reality-Code-Learning\MyProject\MyProject.uproject -NoUBTMakefiles  -remoteini="C:\Users\claberge\Documents\GitHub\SP23-Virtual-Reality-Code-Learning\MyProject" -skipdeploy -Manifest=C:\Users\claberge\Documents\GitHub\SP23-Virtual-Reality-Code-Learning\MyProject\Intermediate\Build\Manifest.xml -NoHotReload -log="C:\Users\claberge\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.1\UBT-MyProject-Android-Development.txt"
+[2023.04.04-20.56.04:433][123]UATHelper: Packaging (Android (ASTC)): Log file: C:\Users\claberge\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.1\UBT-MyProject-Android-Development.txt
+[2023.04.04-20.56.04:518][123]UATHelper: Packaging (Android (ASTC)): Note: Android toolchain NDK r25b recommended
+[2023.04.04-20.56.04:518][123]UATHelper: Packaging (Android (ASTC)): Using 'git status' to determine working set for adaptive non-unity build (C:\Users\claberge\Documents\GitHub\SP23-Virtual-Reality-Code-Learning).
+[2023.04.04-20.56.06:657][130]UATHelper: Packaging (Android (ASTC)): Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn)
+[2023.04.04-20.56.06:657][130]UATHelper: Packaging (Android (ASTC)): Target: x86_64-w64-windows-gnu
+[2023.04.04-20.56.06:657][130]UATHelper: Packaging (Android (ASTC)): Thread model: posix
+[2023.04.04-20.56.06:657][130]UATHelper: Packaging (Android (ASTC)): InstalledDir: C:\Users\claberge\AppData\Local\Android\Sdk\ndk\21.3.6528147\toolchains\llvm\prebuilt\windows-x86_64\bin
+[2023.04.04-20.56.06:838][130]UATHelper: Packaging (Android (ASTC)): Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn)
+[2023.04.04-20.56.06:838][130]UATHelper: Packaging (Android (ASTC)): Target: x86_64-w64-windows-gnu
+[2023.04.04-20.56.06:838][130]UATHelper: Packaging (Android (ASTC)): Thread model: posix
+[2023.04.04-20.56.06:838][130]UATHelper: Packaging (Android (ASTC)): InstalledDir: C:\Users\claberge\AppData\Local\Android\Sdk\ndk\21.3.6528147\toolchains\llvm\prebuilt\windows-x86_64\bin
+[2023.04.04-20.56.06:870][131]UATHelper: Packaging (Android (ASTC)): Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn)
+[2023.04.04-20.56.06:870][131]UATHelper: Packaging (Android (ASTC)): Target: x86_64-w64-windows-gnu
+[2023.04.04-20.56.06:870][131]UATHelper: Packaging (Android (ASTC)): Thread model: posix
+[2023.04.04-20.56.06:870][131]UATHelper: Packaging (Android (ASTC)): InstalledDir: C:\Users\claberge\AppData\Local\Android\Sdk\ndk\21.3.6528147\toolchains\llvm\prebuilt\windows-x86_64\bin
+[2023.04.04-20.56.06:870][131]UATHelper: Packaging (Android (ASTC)): NDK toolchain: r21d, NDK version: 210400, ClangVersion: 9.0.8
+[2023.04.04-20.56.11:228][144]UATHelper: Packaging (Android (ASTC)): Parsing headers for MyProject
+[2023.04.04-20.56.11:239][144]UATHelper: Packaging (Android (ASTC)):   Running Internal UnrealHeaderTool C:\Users\claberge\Documents\GitHub\SP23-Virtual-Reality-Code-Learning\MyProject\MyProject.uproject C:\Users\claberge\Documents\GitHub\SP23-Virtual-Reality-Code-Learning\MyProject\Intermediate\Build\Android\MyProject\Development\MyProject.uhtmanifest -WarningsAsErrors -installed
+[2023.04.04-20.56.11:952][146]UATHelper: Packaging (Android (ASTC)): Total of 0 written
+[2023.04.04-20.56.11:952][146]UATHelper: Packaging (Android (ASTC)): Reflection code generated for MyProject in 0.7178191 seconds
+[2023.04.04-20.56.12:342][147]UATHelper: Packaging (Android (ASTC)): Compiling Native 64-bit code with NDK API 'android-26'
+[2023.04.04-20.56.13:681][151]UATHelper: Packaging (Android (ASTC)): Writing manifest to C:\Users\claberge\Documents\GitHub\SP23-Virtual-Reality-Code-Learning\MyProject\Intermediate\Build\Manifest.xml
+[2023.04.04-20.56.13:743][151]UATHelper: Packaging (Android (ASTC)): Building MyProject...
+[2023.04.04-20.56.13:743][151]UATHelper: Packaging (Android (ASTC)): [Upgrade]
+[2023.04.04-20.56.13:743][151]UATHelper: Packaging (Android (ASTC)): [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2023.04.04-20.56.13:743][151]UATHelper: Packaging (Android (ASTC)): [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_0
+[2023.04.04-20.56.13:743][151]UATHelper: Packaging (Android (ASTC)): [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;' in MyProject.Target.cs.
+[2023.04.04-20.56.13:754][151]UATHelper: Packaging (Android (ASTC)): [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2023.04.04-20.56.13:754][151]UATHelper: Packaging (Android (ASTC)): [Upgrade]
+[2023.04.04-20.56.13:754][151]UATHelper: Packaging (Android (ASTC)): Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+[2023.04.04-20.56.13:754][151]UATHelper: Packaging (Android (ASTC)):   Executing up to 8 processes, one per physical core
+[2023.04.04-20.56.13:754][151]UATHelper: Packaging (Android (ASTC)): Building 4 actions with 4 processes...
+[2023.04.04-20.56.23:779][181]UATHelper: Packaging (Android (ASTC)): [1/4] Compile SharedPCH.Core.ShadowErrors.InclOrderUnreal5_0.h [arm64]
+[2023.04.04-20.56.23:779][181]UATHelper: Packaging (Android (ASTC)): [2/4] Compile MyProject.cpp [arm64]
+[2023.04.04-20.56.23:779][181]UATHelper: Packaging (Android (ASTC)): [3/4] clang++ MyProject-arm64.so
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_swp8_acq_rel
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FAppEventManager::EnqueueAppEvent(EAppEventState, FAppEventData&&))
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FAppEventManager::EnqueueAppEvent(EAppEventState, FAppEventData&&))
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FAppEventManager::WaitForEventInQueue(EAppEventState, double))
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FAppEventManager::WaitForEventInQueue(EAppEventState, double))
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::Destroy())
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::ScheduleTasks(bool&))
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FAAArrayQueue<FQueuedLowLevelThreadPool::FQueuedWorkInternalData>::~FAAArrayQueue())
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by lockless_task_queue.cc
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/lockless_task_queue.cca8.o:(vraudio::LocklessTaskQueue::~LocklessTaskQueue())
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by lockless_task_queue.cc
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/lockless_task_queue.cca8.o:(vraudio::LocklessTaskQueue::Clear())
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by lockless_task_queue.cc
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/lockless_task_queue.cca8.o:(vraudio::LocklessTaskQueue::Execute())
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 781 more times
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_ldadd4_acq_rel
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(TWeakPtr<IVirtualKeyboardEntry, (ESPMode)1>::~TWeakPtr())
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(Java_com_epicgames_unreal_GameActivity_nativeVirtualKeyboardVisible)
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(AndroidThunkCpp_ShowVirtualKeyboardInputDialog(TSharedPtr<IVirtualKeyboardEntry, (ESPMode)1>, int, FString const&, FString const&))
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(AndroidThunkCpp_HideVirtualKeyboardInputDialog())
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(AndroidThunkCpp_HideVirtualKeyboardInputDialog())
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:702][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(Java_com_epicgames_unreal_GameActivity_nativeVirtualKeyboardShown)
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(AndroidThunkCpp_HideVirtualKeyboardInput())
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(AndroidThunkCpp_HideVirtualKeyboardInput())
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(AndroidThunkCpp_ShowVirtualKeyboardInput(TSharedPtr<IVirtualKeyboardEntry, (ESPMode)1>, int, FString const&, FString const&))
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(AndroidThunkCpp_ShowVirtualKeyboardInput(TSharedPtr<IVirtualKeyboardEntry, (ESPMode)1>, int, FString const&, FString const&))
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 171857 more times
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_cas4_acq_rel
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(EngineCrashHandler(FGenericCrashContext const&))
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FEngineLoop::PreInitPostStartupScreen(char16_t const*))
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ResonanceAudio.cpp
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/Module.ResonanceAudio.cppa8.o:(ResonanceAudio::FResonanceAudioModule::StartupModule())
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ResonanceAudio.cpp
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/Module.ResonanceAudio.cppa8.o:(ResonanceAudio::FResonanceAudioReverb::~FResonanceAudioReverb())
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ResonanceAudio.cpp
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/Module.ResonanceAudio.cppa8.o:(ResonanceAudio::FResonanceAudioReverb::InitEffectSubmix())
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRInput.cpp
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRInput/Module.OpenXRInput.cppa8.o:(FGCObject::StaticInit())
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.EnhancedInput.cpp
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/EnhancedInput/Intermediate/Build/Android/UnrealGame/Development/EnhancedInput/Module.EnhancedInput.cppa8.o:(FEnhancedInputModule::StartupModule())
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.EnhancedInput.cpp
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/EnhancedInput/Intermediate/Build/Android/UnrealGame/Development/EnhancedInput/Module.EnhancedInput.cppa8.o:(FEnhancedInputModule::ShutdownModule())
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.EnhancedInput.cpp
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/EnhancedInput/Intermediate/Build/Android/UnrealGame/Development/EnhancedInput/Module.EnhancedInput.cppa8.o:(FVisualizationTexture::~FVisualizationTexture())
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Paper2D.cpp
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/2D/Paper2D/Intermediate/Build/Android/UnrealGame/Development/Paper2D/Module.Paper2D.cppa8.o:(UMaterialInterface* ConstructorHelpersInternal::FindOrLoadObject<UMaterialInterface>(FString&, unsigned int))
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 524 more times
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_ldadd4_relax
+[2023.04.04-20.56.26:713][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(AndroidThunkCpp_ShowVirtualKeyboardInputDialog(TSharedPtr<IVirtualKeyboardEntry, (ESPMode)1>, int, FString const&, FString const&))
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(AndroidThunkCpp_ShowVirtualKeyboardInput(TSharedPtr<IVirtualKeyboardEntry, (ESPMode)1>, int, FString const&, FString const&))
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FEngineLoop::PreInitPreStartupScreen(char16_t const*))
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FEngineLoop::PreInitPreStartupScreen(char16_t const*))
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FEngineLoop::PreInitPreStartupScreen(char16_t const*))
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FEngineLoop::PreInitPreStartupScreen(char16_t const*))
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FEngineLoop::PreInitPreStartupScreen(char16_t const*))
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FEngineLoop::PreInitPreStartupScreen(char16_t const*))
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FEngineLoop::PreInitPreStartupScreen(char16_t const*))
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FEngineLoop::PreInitPreStartupScreen(char16_t const*))
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 54658 more times
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_cas4_relax
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(AndroidThunkCpp_ShowVirtualKeyboardInput(TSharedPtr<IVirtualKeyboardEntry, (ESPMode)1>, int, FString const&, FString const&))
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(UE::Core::Private::Function::TFunctionRefCaller<Java_com_epicgames_unreal_GameActivity_nativeVirtualKeyboardResult::$_21, void ()>::Call(void*))
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(UE::Core::Private::Function::TFunctionRefCaller<Java_com_epicgames_unreal_GameActivity_nativeVirtualKeyboardChanged::$_22, void ()>::Call(void*))
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(UE::Core::Private::Function::TFunctionRefCaller<Java_com_epicgames_unreal_GameActivity_nativeVirtualKeyboardSendSelection::$_23, void ()>::Call(void*))
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(TSharedFromThis<FSceneViewExtensionBase, (ESPMode)1>::AsShared())
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRAR.cpp
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRAR/Module.OpenXRAR.cppa8.o:(TSharedFromThis<FOpenXRARSystem, (ESPMode)1>::AsShared())
+[2023.04.04-20.56.26:724][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRAR.cpp
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRAR/Module.OpenXRAR.cppa8.o:(TBaseSPMethodDelegateInstance<false, FOpenXRARSystem, (ESPMode)1, void (), FDefaultDelegateUserPolicy, FGuid>::GetObjectForTimerManager() const)
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRAR.cpp
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRAR/Module.OpenXRAR.cppa8.o:(TBaseSPMethodDelegateInstance<false, FOpenXRARSystem, (ESPMode)1, void (), FDefaultDelegateUserPolicy, FGuid>::HasSameObject(void const*) const)
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRAR.cpp
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRAR/Module.OpenXRAR.cppa8.o:(TBaseSPMethodDelegateInstance<false, FOpenXRARSystem, (ESPMode)1, void (), FDefaultDelegateUserPolicy, FGuid>::Execute() const)
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRAR.cpp
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRAR/Module.OpenXRAR.cppa8.o:(TBaseSPMethodDelegateInstance<false, FOpenXRARSystem, (ESPMode)1, void (), FDefaultDelegateUserPolicy, FGuid>::ExecuteIfSafe() const)
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 6482 more times
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_ldadd4_rel
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FEngineLoop::Tick())
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FEngineLoop::Tick())
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FEngineLoop::Tick())
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FEngineLoop::Tick())
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FEngineLoop::Tick())
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FEngineLoop::Tick())
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FEngineLoop::Tick())
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FEngineLoop::Tick())
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(TGraphTask<FExecuteConcurrentWithSlateTickTask>::CreateTask(TArray<TRefCountPtr<FGraphEvent>, TSizedInlineAllocator<4u, 32, TSizedDefaultAllocator<32> > > const*, ENamedThreads::Type))
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(TGraphTask<TFunctionGraphTaskImpl<void (), (ESubsequentsMode::Type)0> >::CreateTask(TArray<TRefCountPtr<FGraphEvent>, TSizedInlineAllocator<4u, 32, TSizedDefaultAllocator<32> > > const*, ENamedThreads::Type))
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 1487 more times
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_ldadd8_acq_rel
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FCompositeBuffer::~FCompositeBuffer())
+[2023.04.04-20.56.26:734][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:745][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FCompositeBuffer::~FCompositeBuffer())
+[2023.04.04-20.56.26:745][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:745][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FCompressedBuffer::~FCompressedBuffer())
+[2023.04.04-20.56.26:745][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:745][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FCompressedBuffer::~FCompressedBuffer())
+[2023.04.04-20.56.26:745][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by ambisonic_binaural_decoder_node.cc
+[2023.04.04-20.56.26:745][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/ambisonic_binaural_decoder_node.cca8.o:(vraudio::Node::Input<vraudio::AudioBuffer const*>::~Input())
+[2023.04.04-20.56.26:745][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by binaural_surround_renderer_impl.cc
+[2023.04.04-20.56.26:745][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/binaural_surround_renderer_impl.cca8.o:(vraudio::BinauralSurroundRendererImpl::BufferPartitionerCallback(vraudio::AudioBuffer*))
+[2023.04.04-20.56.26:745][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by binaural_surround_renderer_impl.cc
+[2023.04.04-20.56.26:745][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/binaural_surround_renderer_impl.cca8.o:(vraudio::BinauralSurroundRendererImpl::ProcessBuffer())
+[2023.04.04-20.56.26:745][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by binaural_surround_renderer_impl.cc
+[2023.04.04-20.56.26:745][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/binaural_surround_renderer_impl.cca8.o:(vraudio::BinauralSurroundRendererImpl::Clear())
+[2023.04.04-20.56.26:745][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by graph_manager.cc
+[2023.04.04-20.56.26:745][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/graph_manager.cca8.o:(vraudio::GraphManager::GraphManager(vraudio::SystemSettings const&))
+[2023.04.04-20.56.26:745][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by graph_manager.cc
+[2023.04.04-20.56.26:746][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/graph_manager.cca8.o:(vraudio::GraphManager::GraphManager(vraudio::SystemSettings const&))
+[2023.04.04-20.56.26:746][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 2262 more times
+[2023.04.04-20.56.26:746][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_cas8_acq_rel
+[2023.04.04-20.56.26:746][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:746][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FLockFreePointerListLIFORoot<0, 2ull>::PushIf(TFunctionRef<unsigned int (unsigned long long)>))
+[2023.04.04-20.56.26:746][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:746][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::Destroy())
+[2023.04.04-20.56.26:746][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:746][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::AddQueuedWork(IQueuedWork*, EQueuedWorkPriority))
+[2023.04.04-20.56.26:746][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:746][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::AddQueuedWork(IQueuedWork*, EQueuedWorkPriority))
+[2023.04.04-20.56.26:746][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:746][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::AddQueuedWork(IQueuedWork*, EQueuedWorkPriority))
+[2023.04.04-20.56.26:746][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:746][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::AddQueuedWork(IQueuedWork*, EQueuedWorkPriority))
+[2023.04.04-20.56.26:746][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:746][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::ScheduleTasks(bool&))
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FAAArrayQueue<FQueuedLowLevelThreadPool::FQueuedWorkInternalData>::~FAAArrayQueue())
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(LowLevelTasks::TLocalQueueRegistry<1024u>::TLocalQueue::DeleteLocalQueue(LowLevelTasks::TLocalQueueRegistry<1024u>::TLocalQueue*, LowLevelTasks::ELocalQueueType, bool))
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(LowLevelTasks::TLocalQueueRegistry<1024u>::TLocalQueue::DeleteLocalQueue(LowLevelTasks::TLocalQueueRegistry<1024u>::TLocalQueue*, LowLevelTasks::ELocalQueueType, bool))
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 263 more times
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_ldset8_rel
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::Destroy())
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::AddQueuedWork(IQueuedWork*, EQueuedWorkPriority))
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::FQueuedWorkInternalData::Retract())
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::ScheduleTasks(bool&))
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by SignificanceManager.cpp
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/SignificanceManager/Intermediate/Build/Android/UnrealGame/Development/SignificanceManager/SignificanceManager.cppa8.o:(void ParallelForImpl::ParallelForInternal<TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, EParallelForFlags)::'lambda'(), std::nullptr_t>(char16_t const*, int, int, TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, EParallelForFlags)::'lambda'(), EParallelForFlags, TArrayView<std::nullptr_t, int> const&)::FParallelExecutor::LaunchTask(char16_t const*, TRefCountPtr<void ParallelForImpl::ParallelForInternal<TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, EParallelForFlags)::'lambda'(), std::nullptr_t>(char16_t const*, int, int, TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, EParallelForFlags)::'lambda'(), EParallelForFlags, TArrayView<std::nullptr_t, int> const&)::FParallelForData>&&, int, LowLevelTasks::ETaskPriority))
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.DynamicMesh.1_of_5.cpp
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Intermediate/Build/Android/UnrealGame/Development/DynamicMesh/Module.DynamicMesh.1_of_5.cppa8.o:(void ParallelForImpl::ParallelForInternal<TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, bool, bool)::'lambda'(), std::nullptr_t>(char16_t const*, int, int, TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, bool, bool)::'lambda'(), EParallelForFlags, TArrayView<std::nullptr_t, int> const&)::FParallelExecutor::LaunchTask(char16_t const*, TRefCountPtr<void ParallelForImpl::ParallelForInternal<TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, bool, bool)::'lambda'(), std::nullptr_t>(char16_t const*, int, int, TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, bool, bool)::'lambda'(), EParallelForFlags, TArrayView<std::nullptr_t, int> const&)::FParallelForData>&&, int, LowLevelTasks::ETaskPriority))
+[2023.04.04-20.56.26:756][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(LowLevelTasks::FScheduler::StopWorkers(bool))
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(LowLevelTasks::FScheduler::LaunchInternal(LowLevelTasks::FTask&, LowLevelTasks::EQueuePreference, bool))
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(bool LowLevelTasks::FScheduler::TryExecuteTaskFrom<&(LowLevelTasks::TLocalQueueRegistry<1024u>::TLocalQueue::DequeueLocal(bool, bool)), false>(LowLevelTasks::TLocalQueueRegistry<1024u>::TLocalQueue*, LowLevelTasks::TLocalQueueRegistry<1024u>::FOutOfWork&, bool, bool))
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(bool LowLevelTasks::FScheduler::TryExecuteTaskFrom<&(LowLevelTasks::TLocalQueueRegistry<1024u>::TLocalQueue::DequeueGlobal(bool, bool)), false>(LowLevelTasks::TLocalQueueRegistry<1024u>::TLocalQueue*, LowLevelTasks::TLocalQueueRegistry<1024u>::FOutOfWork&, bool, bool))
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 130 more times
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_ldadd4_acq
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::AddQueuedWork(IQueuedWork*, EQueuedWorkPriority))
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::ScheduleTasks(bool&))
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ProceduralMeshComponent.cpp
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Development/ProceduralMeshComponent/Module.ProceduralMeshComponent.cppa8.o:(TRefCountPtr<FRHIBuffer>::operator=(FRHIBuffer*))
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ProceduralMeshComponent.cpp
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Development/ProceduralMeshComponent/Module.ProceduralMeshComponent.cppa8.o:(TRefCountPtr<FRHIUniformBuffer>::operator=(FRHIUniformBuffer*))
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ProceduralMeshComponent.cpp
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Development/ProceduralMeshComponent/Module.ProceduralMeshComponent.cppa8.o:(TUniformBufferRef<FPrimitiveUniformShaderParameters>::CreateUniformBufferImmediate(FPrimitiveUniformShaderParameters const&, EUniformBufferUsage, EUniformBufferValidation))
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRHMD::FOpenXRHMD(FAutoRegister const&, XrInstance_T*, unsigned long, TRefCountPtr<FOpenXRRenderBridge>&, TArray<char const*, TSizedDefaultAllocator<32> >, TArray<IOpenXRExtensionPlugin*, TSizedDefaultAllocator<32> >, IARSystemSupport*))
+[2023.04.04-20.56.26:767][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:768][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRHMD::RenderTexture_RenderThread(FRHICommandListImmediate&, FRHITexture*, FRHITexture*, UE::Math::TVector2<double>) const)
+[2023.04.04-20.56.26:768][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:768][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRHMDModule::InitRenderBridge())
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(TRefCountPtr<FOpenXRRenderBridge>::operator=(FOpenXRRenderBridge*))
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(CreateSwapchain_OpenGLES(XrSession_T*, unsigned char, unsigned char&, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, ETextureCreateFlags, FClearValueBinding const&))
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 2467 more times
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_cas8_relax
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FHazardPointerCollection::FHazardRecord* FHazardPointerCollection::Acquire<false>())
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FHazardPointerCollection::FHazardRecord* FHazardPointerCollection::Acquire<false>())
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FHazardPointerCollection::FHazardRecord* FHazardPointerCollection::Acquire<false>())
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FHazardPointerCollection::FHazardRecord* FHazardPointerCollection::Acquire<false>())
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FHazardPointerCollection::FHazardRecord* FHazardPointerCollection::Acquire<false>())
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FHazardPointerCollection::FHazardRecord* FHazardPointerCollection::Acquire<false>())
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FHazardPointerCollection::FHazardRecord* FHazardPointerCollection::Acquire<false>())
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FHazardPointerCollection::FHazardRecord* FHazardPointerCollection::Acquire<false>())
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FHazardPointerCollection::FHazardRecord* FHazardPointerCollection::Acquire<false>())
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FHazardPointerCollection::FHazardRecord* FHazardPointerCollection::Acquire<false>())
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 125 more times
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_cas8_acq
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::FQueuedWorkInternalData::Retract())
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::FQueuedWorkInternalData::Retract())
+[2023.04.04-20.56.26:778][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by SignificanceManager.cpp
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/SignificanceManager/Intermediate/Build/Android/UnrealGame/Development/SignificanceManager/SignificanceManager.cppa8.o:(void ParallelForImpl::ParallelForInternal<TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, EParallelForFlags)::'lambda'(), std::nullptr_t>(char16_t const*, int, int, TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, EParallelForFlags)::'lambda'(), EParallelForFlags, TArrayView<std::nullptr_t, int> const&))
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by SignificanceManager.cpp
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/SignificanceManager/Intermediate/Build/Android/UnrealGame/Development/SignificanceManager/SignificanceManager.cppa8.o:(void ParallelForImpl::ParallelForInternal<TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, EParallelForFlags)::'lambda'(), std::nullptr_t>(char16_t const*, int, int, TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, EParallelForFlags)::'lambda'(), EParallelForFlags, TArrayView<std::nullptr_t, int> const&))
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.DynamicMesh.1_of_5.cpp
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Intermediate/Build/Android/UnrealGame/Development/DynamicMesh/Module.DynamicMesh.1_of_5.cppa8.o:(void ParallelForImpl::ParallelForInternal<TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, bool, bool)::'lambda'(), std::nullptr_t>(char16_t const*, int, int, TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, bool, bool)::'lambda'(), EParallelForFlags, TArrayView<std::nullptr_t, int> const&))
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.DynamicMesh.1_of_5.cpp
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Intermediate/Build/Android/UnrealGame/Development/DynamicMesh/Module.DynamicMesh.1_of_5.cppa8.o:(void ParallelForImpl::ParallelForInternal<TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, bool, bool)::'lambda'(), std::nullptr_t>(char16_t const*, int, int, TFunctionRef<void (int)>, ParallelFor(int, TFunctionRef<void (int)>, bool, bool)::'lambda'(), EParallelForFlags, TArrayView<std::nullptr_t, int> const&))
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.TraceLog.cpp
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/TraceLog/Module.TraceLog.cppa8.o:(UE::Trace::Private::Writer_AllocateBlockFromPool())
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.TraceLog.cpp
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/TraceLog/Module.TraceLog.cppa8.o:(UE::Trace::FChannel::ReadNew())
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.TraceLog.cpp
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/TraceLog/Module.TraceLog.cppa8.o:(UE::Trace::FChannel::ReadNew())
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.TraceLog.cpp
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/TraceLog/Module.TraceLog.cppa8.o:(UE::Trace::Private::Writer_WorkerUpdateInternal())
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 107 more times
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_ldset8_acq
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::FQueuedWorkInternalData::Retract())
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(LowLevelTasks::FScheduler::ExecuteTask(LowLevelTasks::FTask*&))
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(LowLevelTasks::FScheduler::ExecuteTask(LowLevelTasks::FTask*&))
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(Tasks2Tests::FTasksUnitTests2::RunTest(FString const&))
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:788][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(Tasks2Tests::FTasksUnitTests2::RunTest(FString const&))
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(Tasks2Tests::FTasksUnitTests2::RunTest(FString const&))
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(UE::Tasks::Private::FTaskBase::TryUnlock())
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(AwaitableTask_Detail::TPromise<void, void Tasks2Tests::EmptyPerfTest<10000>(bool)::'lambda2'()::operator()() const::'lambda'()>::Finish())
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(AwaitableTask_Detail::TPromise<void, void Tasks2Tests::EmptyPerfTest<10000>(bool)::'lambda2'()::operator()() const::'lambda'()>::GetResult())
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(AwaitableTask_Detail::TPromise<void, void Tasks2Tests::EmptyPerfTest<10000>(bool)::'lambda2'()>::Finish())
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 14 more times
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_ldset8_acq_rel
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::FQueuedWorkInternalData::Retract())
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Launch.cpp
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Launch/Module.Launch.cppa8.o:(FQueuedLowLevelThreadPool::FQueuedWorkInternalData::Retract())
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(LowLevelTasks::FScheduler::ExecuteTask(LowLevelTasks::FTask*&))
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(LowLevelTasks::FScheduler::ExecuteTask(LowLevelTasks::FTask*&))
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(LowLevelTasks::FScheduler::ExecuteTask(LowLevelTasks::FTask*&))
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(LowLevelTasks::FScheduler::ExecuteTask(LowLevelTasks::FTask*&))
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(LowLevelTasks::FScheduler::ExecuteTask(LowLevelTasks::FTask*&))
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(LowLevelTasks::FScheduler::ExecuteTask(LowLevelTasks::FTask*&))
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(Tasks2Tests::FTasksUnitTests2::RunTest(FString const&))
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.Core.1_of_20.cpp
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Intermediate/Build/Android/UnrealGame/Development/Core/Module.Core.1_of_20.cppa8.o:(Tasks2Tests::FTasksUnitTests2::RunTest(FString const&))
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 76 more times
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_ldadd8_relax
+[2023.04.04-20.56.26:800][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by graph_manager.cc
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/graph_manager.cca8.o:(vraudio::GraphManager::GraphManager(vraudio::SystemSettings const&))
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by graph_manager.cc
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/graph_manager.cca8.o:(vraudio::GraphManager::GraphManager(vraudio::SystemSettings const&))
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by graph_manager.cc
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/graph_manager.cca8.o:(vraudio::GraphManager::GraphManager(vraudio::SystemSettings const&))
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by graph_manager.cc
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/graph_manager.cca8.o:(vraudio::GraphManager::GraphManager(vraudio::SystemSettings const&))
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by graph_manager.cc
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/graph_manager.cca8.o:(vraudio::GraphManager::GraphManager(vraudio::SystemSettings const&))
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by graph_manager.cc
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/graph_manager.cca8.o:(vraudio::GraphManager::GraphManager(vraudio::SystemSettings const&))
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by graph_manager.cc
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/graph_manager.cca8.o:(vraudio::GraphManager::GraphManager(vraudio::SystemSettings const&))
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by graph_manager.cc
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/graph_manager.cca8.o:(vraudio::GraphManager::GraphManager(vraudio::SystemSettings const&))
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by graph_manager.cc
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/graph_manager.cca8.o:(vraudio::GraphManager::GraphManager(vraudio::SystemSettings const&))
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by graph_manager.cc
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/graph_manager.cca8.o:(vraudio::GraphManager::GraphManager(vraudio::SystemSettings const&))
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 445 more times
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_cas8_rel
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by lockless_task_queue.cc
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/lockless_task_queue.cca8.o:(vraudio::LocklessTaskQueue::Post(std::__ndk1::function<void ()>&&))
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by lockless_task_queue.cc
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/lockless_task_queue.cca8.o:(vraudio::LocklessTaskQueue::PushNodeToList(std::__ndk1::atomic<vraudio::LocklessTaskQueue::Node*>*, vraudio::LocklessTaskQueue::Node*))
+[2023.04.04-20.56.26:811][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by lockless_task_queue.cc
+[2023.04.04-20.56.26:812][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ResonanceAudio/Intermediate/Build/Android/UnrealGame/Development/ResonanceAudio/lockless_task_queue.cca8.o:(vraudio::LocklessTaskQueue::ProcessTaskList(vraudio::LocklessTaskQueue::Node*, bool))
+[2023.04.04-20.56.26:812][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ProceduralMeshComponent.cpp
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Development/ProceduralMeshComponent/Module.ProceduralMeshComponent.cppa8.o:(FProceduralMeshSceneProxy::GetDynamicMeshElements(TArray<FSceneView const*, TSizedDefaultAllocator<32> > const&, FSceneViewFamily const&, unsigned int, FMeshElementCollector&) const)
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ProceduralMeshComponent.cpp
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Development/ProceduralMeshComponent/Module.ProceduralMeshComponent.cppa8.o:(FProceduralMeshSceneProxy::GetDynamicMeshElements(TArray<FSceneView const*, TSizedDefaultAllocator<32> > const&, FSceneViewFamily const&, unsigned int, FMeshElementCollector&) const)
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ProceduralMeshComponent.cpp
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Development/ProceduralMeshComponent/Module.ProceduralMeshComponent.cppa8.o:(TRefCountPtr<FRHIBuffer>::~TRefCountPtr())
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ProceduralMeshComponent.cpp
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Development/ProceduralMeshComponent/Module.ProceduralMeshComponent.cppa8.o:(TRefCountPtr<FRHIBuffer>::operator=(FRHIBuffer*))
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ProceduralMeshComponent.cpp
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Development/ProceduralMeshComponent/Module.ProceduralMeshComponent.cppa8.o:(TRefCountPtr<FRHIVertexDeclaration>::~TRefCountPtr())
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ProceduralMeshComponent.cpp
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Development/ProceduralMeshComponent/Module.ProceduralMeshComponent.cppa8.o:(TRefCountPtr<FRHIUniformBuffer>::operator=(FRHIUniformBuffer*))
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ProceduralMeshComponent.cpp
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Development/ProceduralMeshComponent/Module.ProceduralMeshComponent.cppa8.o:(TRefCountPtr<FRHIUniformBuffer>::~TRefCountPtr())
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 234 more times
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_ldset4_rel
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ProceduralMeshComponent.cpp
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Development/ProceduralMeshComponent/Module.ProceduralMeshComponent.cppa8.o:(TRefCountPtr<FRHIBuffer>::~TRefCountPtr())
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ProceduralMeshComponent.cpp
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Development/ProceduralMeshComponent/Module.ProceduralMeshComponent.cppa8.o:(TRefCountPtr<FRHIBuffer>::operator=(FRHIBuffer*))
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ProceduralMeshComponent.cpp
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Development/ProceduralMeshComponent/Module.ProceduralMeshComponent.cppa8.o:(TRefCountPtr<FRHIVertexDeclaration>::~TRefCountPtr())
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ProceduralMeshComponent.cpp
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Development/ProceduralMeshComponent/Module.ProceduralMeshComponent.cppa8.o:(TRefCountPtr<FRHIUniformBuffer>::operator=(FRHIUniformBuffer*))
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ProceduralMeshComponent.cpp
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Development/ProceduralMeshComponent/Module.ProceduralMeshComponent.cppa8.o:(TRefCountPtr<FRHIUniformBuffer>::~TRefCountPtr())
+[2023.04.04-20.56.26:822][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.ProceduralMeshComponent.cpp
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/ProceduralMeshComponent/Intermediate/Build/Android/UnrealGame/Development/ProceduralMeshComponent/Module.ProceduralMeshComponent.cppa8.o:(TRefCountPtr<FRHIUniformBuffer>::operator=(TRefCountPtr<FRHIUniformBuffer>&&))
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(TRefCountPtr<FOpenXRRenderBridge>::~TRefCountPtr())
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(TRefCountPtr<FRHIBuffer>::operator=(TRefCountPtr<FRHIBuffer>&&))
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(TRefCountPtr<FRHITexture>::~TRefCountPtr())
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(TRefCountPtr<FOpenXRRenderBridge>::operator=(FOpenXRRenderBridge*))
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 140 more times
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_swp1_acq_rel
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRHMD::StartSession())
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRHMD::DestroySession())
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRHMD::DestroySession())
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRHMD::DestroySession())
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRHMD::DestroySession())
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRHMD::StopSession())
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRHMD::OnStartGameFrame(FWorldContext&))
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRHMD::OnStartGameFrame(FWorldContext&))
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRHMD::OnStartGameFrame(FWorldContext&))
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRHMD::OnBeginRendering_RHIThread(FOpenXRHMD::FPipelinedFrameState const&, TSharedPtr<FXRSwapChain, (ESPMode)1>, TSharedPtr<FXRSwapChain, (ESPMode)1>))
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 233 more times
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_cas1_acq_rel
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:833][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRSwapchain::IncrementSwapChainIndex_RHIThread())
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRSwapchain::IncrementSwapChainIndex_RHIThread())
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRSwapchain::WaitCurrentImage_RHIThread(long long))
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRSwapchain::ReleaseCurrentImage_RHIThread())
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.OpenXRHMD.cpp
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/OpenXR/Intermediate/Build/Android/UnrealGame/Development/OpenXRHMD/Module.OpenXRHMD.cppa8.o:(FOpenXRSwapchain::ReleaseCurrentImage_RHIThread())
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.GeometryAlgorithms.cpp
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Intermediate/Build/Android/UnrealGame/Development/GeometryAlgorithms/Module.GeometryAlgorithms.cppa8.o:(xatlas::AddMesh(xatlas::Atlas*, xatlas::MeshDecl const&, unsigned int))
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.GeometryAlgorithms.cpp
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Intermediate/Build/Android/UnrealGame/Development/GeometryAlgorithms/Module.GeometryAlgorithms.cppa8.o:(xatlas::ComputeCharts(xatlas::Atlas*, xatlas::ChartOptions))
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.GeometryAlgorithms.cpp
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Intermediate/Build/Android/UnrealGame/Development/GeometryAlgorithms/Module.GeometryAlgorithms.cppa8.o:(xatlas::internal::param::Atlas::computeCharts(xatlas::internal::TaskScheduler*, xatlas::ChartOptions const&, bool (*)(xatlas::ProgressCategory, int, void*), void*))
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.GeometryAlgorithms.cpp
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Intermediate/Build/Android/UnrealGame/Development/GeometryAlgorithms/Module.GeometryAlgorithms.cppa8.o:(xatlas::internal::pack::Atlas::addCharts(xatlas::internal::TaskScheduler*, xatlas::internal::param::Atlas*))
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.GeometryAlgorithms.cpp
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Runtime/GeometryProcessing/Intermediate/Build/Android/UnrealGame/Development/GeometryAlgorithms/Module.GeometryAlgorithms.cppa8.o:(xatlas::internal::param::runMeshComputeChartsTask(void*, void*))
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 27 more times
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: undefined symbol: __aarch64_swp4_acq_rel
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.BackChannel.cpp
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/BackChannel/Intermediate/Build/Android/UnrealGame/Development/BackChannel/Module.BackChannel.cppa8.o:(FBackChannelOSCConnection::StartReceiveThread())
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.BackChannel.cpp
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/BackChannel/Intermediate/Build/Android/UnrealGame/Development/BackChannel/Module.BackChannel.cppa8.o:(FBackChannelOSCConnection::StartReceiveThread())
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.BackChannel.cpp
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/BackChannel/Intermediate/Build/Android/UnrealGame/Development/BackChannel/Module.BackChannel.cppa8.o:(FBackChannelOSCConnection::Run())
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.BackChannel.cpp
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/BackChannel/Intermediate/Build/Android/UnrealGame/Development/BackChannel/Module.BackChannel.cppa8.o:(FBackChannelOSCConnection::Stop())
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.BackChannel.cpp
+[2023.04.04-20.56.26:844][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/BackChannel/Intermediate/Build/Android/UnrealGame/Development/BackChannel/Module.BackChannel.cppa8.o:(FBackChannelConnection::Connect(char16_t const*))
+[2023.04.04-20.56.26:855][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.BackChannel.cpp
+[2023.04.04-20.56.26:855][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/BackChannel/Intermediate/Build/Android/UnrealGame/Development/BackChannel/Module.BackChannel.cppa8.o:(FBackChannelThreadedListener::~FBackChannelThreadedListener())
+[2023.04.04-20.56.26:855][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.BackChannel.cpp
+[2023.04.04-20.56.26:855][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/BackChannel/Intermediate/Build/Android/UnrealGame/Development/BackChannel/Module.BackChannel.cppa8.o:(FBackChannelThreadedListener::~FBackChannelThreadedListener())
+[2023.04.04-20.56.26:855][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.BackChannel.cpp
+[2023.04.04-20.56.26:855][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/BackChannel/Intermediate/Build/Android/UnrealGame/Development/BackChannel/Module.BackChannel.cppa8.o:(FBackChannelThreadedListener::Start(TSharedRef<IBackChannelSocketConnection, (ESPMode)1>, TDelegate<bool (TSharedRef<IBackChannelSocketConnection, (ESPMode)1>), FDefaultDelegateUserPolicy>))
+[2023.04.04-20.56.26:855][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.BackChannel.cpp
+[2023.04.04-20.56.26:855][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/BackChannel/Intermediate/Build/Android/UnrealGame/Development/BackChannel/Module.BackChannel.cppa8.o:(FBackChannelThreadedListener::Start(TSharedRef<IBackChannelSocketConnection, (ESPMode)1>, TDelegate<bool (TSharedRef<IBackChannelSocketConnection, (ESPMode)1>), FDefaultDelegateUserPolicy>))
+[2023.04.04-20.56.26:855][190]UATHelper: Packaging (Android (ASTC)): >>> referenced by Module.BackChannel.cpp
+[2023.04.04-20.56.26:855][190]UATHelper: Packaging (Android (ASTC)): >>>               C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Experimental/BackChannel/Intermediate/Build/Android/UnrealGame/Development/BackChannel/Module.BackChannel.cppa8.o:(FBackChannelThreadedListener::Run())
+[2023.04.04-20.56.26:855][190]UATHelper: Packaging (Android (ASTC)): >>> referenced 1095 more times
+[2023.04.04-20.56.26:855][190]UATHelper: Packaging (Android (ASTC)): ld.lld: error: too many errors emitted, stopping now (use -error-limit=0 to see all errors)
+[2023.04.04-20.56.26:855][190]UATHelper: Packaging (Android (ASTC)): clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+[2023.04.04-20.56.26:855][190]UATHelper: Packaging (Android (ASTC)): [4/4] WriteMetadata MyProject.target cancelled
+[2023.04.04-20.56.26:855][190]UATHelper: Packaging (Android (ASTC)): Took 23.1136007s to run dotnet.exe, ExitCode=6
+[2023.04.04-20.56.26:855][190]UATHelper: Packaging (Android (ASTC)): UnrealBuildTool failed. See log for more details. (C:\Users\claberge\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.1\UBT-MyProject-Android-Development.txt)
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_swp8_acq_rel
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_ldadd4_acq_rel
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_cas4_acq_rel
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_ldadd4_relax
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_cas4_relax
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_ldadd4_rel
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_ldadd8_acq_rel
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_cas8_acq_rel
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_ldset8_rel
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_ldadd4_acq
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_cas8_relax
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_cas8_acq
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_ldset8_acq
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_ldset8_acq_rel
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_ldadd8_relax
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_cas8_rel
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_ldset4_rel
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_swp1_acq_rel
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_cas1_acq_rel
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: undefined symbol: __aarch64_swp4_acq_rel
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: too many errors emitted, stopping now (use -error-limit=0 to see all errors)
+[2023.04.04-20.56.26:861][190]PackagingResults: Error: linker command failed with exit code 1 (use -v to see invocation)
+[2023.04.04-20.56.26:876][191]UATHelper: Packaging (Android (ASTC)): AutomationTool executed for 0h 1m 53s
+[2023.04.04-20.56.26:876][191]UATHelper: Packaging (Android (ASTC)): AutomationTool exiting with ExitCode=6 (6)
+[2023.04.04-20.56.26:919][191]UATHelper: Packaging (Android (ASTC)): Updating environment variables set by a Turnkey sub-process
+[2023.04.04-20.56.26:930][191]UATHelper: Packaging (Android (ASTC)): BUILD FAILED
+[2023.04.04-20.56.27:208][191]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_00_StreamCache_Ver5027_MEM_65536MaxChnkSize_0000000 wave CompileFailed...
+[2023.04.04-20.56.27:208][191]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_00_StreamCache_Ver5027_MEM_65536MaxChnkSize_0000000 wave CompileFailed...
+[2023.04.04-20.56.27:208][191]PackagingResults: Error: Unknown Error
+[2023.04.04-20.56.27:215][191]LogAudio: Display: Chunk size for SoundWave /Engine/EditorSounds/Notifications/CompileFailed.CompileFailed: 262144
+[2023.04.04-21.02.41:554][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.04.04-21.02.41:554][ 98]LogStall: Shutdown...
+[2023.04.04-21.02.41:557][ 98]LogStall: Shutdown complete.
+[2023.04.04-21.02.41:600][ 98]LogSlate: Window 'MyProject - Unreal Editor' being destroyed
+[2023.04.04-21.02.41:651][ 99]Cmd: QUIT_EDITOR
+[2023.04.04-21.02.41:651][ 99]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.04.04-21.02.41:654][ 99]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.04.04-21.02.41:655][ 99]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.04.04-21.02.41:655][ 99]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.04.04-21.02.41:655][ 99]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.04.04-21.02.41:655][ 99]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.04-21.02.41:656][ 99]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.04.04-21.02.41:997][ 99]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.04.04-21.02.41:997][ 99]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.04.04-21.02.41:997][ 99]LogAudio: Display: Audio Device unregistered from world 'VRTemplateMap'.
+[2023.04.04-21.02.41:997][ 99]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.04.04-21.02.41:997][ 99]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.04.04-21.02.41:999][ 99]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.04.04-21.02.42:420][ 99]LogAudio: Display: Audio Device Manager Shutdown
+[2023.04.04-21.02.42:421][ 99]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2023.04.04-21.02.42:426][ 99]LogExit: Preparing to exit.
+[2023.04.04-21.02.42:437][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.04.04-21.02.43:127][ 99]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.04.04-21.02.43:127][ 99]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.04.04-21.02.43:127][ 99]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.04.04-21.02.43:150][ 99]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2023.04.04-21.02.43:156][ 99]LogExit: Editor shut down
+[2023.04.04-21.02.43:157][ 99]LogExit: Transaction tracking system shut down
+[2023.04.04-21.02.43:200][ 99]LogExit: Object subsystem successfully closed.
+[2023.04.04-21.02.43:204][ 99]LogShaderCompilers: Display: ================================================
+[2023.04.04-21.02.43:204][ 99]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.04-21.02.43:204][ 99]LogShaderCompilers: Display: Total job queries 81, among them cache hits 20 (24.69%)
+[2023.04.04-21.02.43:204][ 99]LogShaderCompilers: Display: Tracking 61 distinct input hashes that result in 48 distinct outputs (78.69%)
+[2023.04.04-21.02.43:204][ 99]LogShaderCompilers: Display: RAM used: 0.57 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.04%
+[2023.04.04-21.02.43:204][ 99]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.04-21.02.43:204][ 99]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.04.04-21.02.43:204][ 99]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.04.04-21.02.43:204][ 99]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.04.04-21.02.43:205][ 99]LogShaderCompilers: Display: ================================================
+[2023.04.04-21.02.43:262][ 99]LogShaderCompilers: Display: Shaders left to compile 0
+[2023.04.04-21.02.43:273][ 99]LogVirtualization: UE::Virtualization was shutdown
+[2023.04.04-21.02.43:301][ 99]LogModuleManager: Shutting down and abandoning module UATHelper (1001)
+[2023.04.04-21.02.43:301][ 99]LogModuleManager: Shutting down and abandoning module TurnkeyIO (999)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module LauncherServices (997)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (995)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module Voice (993)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module SequencerWidgets (991)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (989)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (987)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module AddContentDialog (985)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module WidgetCarousel (984)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module SubobjectEditor (981)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module SceneOutliner (979)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module StatusBar (977)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (975)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module StatsViewer (973)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (971)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module AutomationWorker (969)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module WaveTableEditor (967)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (965)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module OpenXRInput (963)
+[2023.04.04-21.02.43:303][ 99]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module GooglePADEditor (961)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (959)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (957)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module SmartSnapping (955)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (953)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (951)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module TakesCore (949)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (947)
+[2023.04.04-21.02.43:303][ 99]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (945)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module WebMMedia (943)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (941)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (939)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (937)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (935)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module SequenceRecorder (934)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (931)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (929)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (927)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (925)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (923)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (921)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (919)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (917)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (915)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (913)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (911)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module TextureAlignMode (909)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module BspMode (907)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module GeometryMode (905)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module IKRigEditor (903)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module ControlRigEditor (901)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module PlanarCut (899)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module CharacterAI (897)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module SessionServices (895)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module MeshPaint (893)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (891)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module PlacementMode (890)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module FoliageEdit (887)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module LandscapeEditor (885)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (883)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module ActorPickerMode (881)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module ViewportSnapping (879)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module ViewportInteraction (877)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module ClothPainter (875)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (874)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module LogVisualizer (871)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (869)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (867)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (866)
+[2023.04.04-21.02.43:304][ 99]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (864)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (861)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module HoloLensPlatformEditor (859)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (857)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (855)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module AnimationSettings (853)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (851)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module CSVtoSVG (849)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (847)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module EditorConfig (845)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (843)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module EditorFramework (841)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (839)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module TraceInsights (837)
+[2023.04.04-21.02.43:321][ 99]MemoryProfiler: Shutdown
+[2023.04.04-21.02.43:321][ 99]NetworkingProfiler: Shutdown
+[2023.04.04-21.02.43:321][ 99]LoadingProfiler: Shutdown
+[2023.04.04-21.02.43:321][ 99]TimingProfiler: Shutdown
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module TraceServices (836)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (833)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (832)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module InputBindingEditor (829)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module MergeActors (827)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (825)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module LocalizationService (824)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module HardwareTargeting (821)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (819)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module UndoHistory (817)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module XmlParser (815)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module Blutility (813)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (811)
+[2023.04.04-21.02.43:321][ 99]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (810)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (807)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (806)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module SettingsEditor (803)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module ProjectLauncher (801)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module SessionFrontend (799)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module ProfilerClient (797)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module DeviceManager (795)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module AutomationController (793)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module AutomationWindow (791)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module Layers (789)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (787)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module DetailCustomizations (785)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module PackagesDialog (783)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (781)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module Persona (779)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (778)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module AnimGraph (776)
+[2023.04.04-21.02.43:322][ 99]LogModuleManager: Shutting down and abandoning module Kismet (773)
+[2023.04.04-21.02.43:323][ 99]LogModuleManager: Shutting down and abandoning module KismetWidgets (772)
+[2023.04.04-21.02.43:323][ 99]LogModuleManager: Shutting down and abandoning module GraphEditor (769)
+[2023.04.04-21.02.43:323][ 99]LogModuleManager: Shutting down and abandoning module StructViewer (767)
+[2023.04.04-21.02.43:323][ 99]LogModuleManager: Shutting down and abandoning module ClassViewer (765)
+[2023.04.04-21.02.43:323][ 99]LogModuleManager: Shutting down and abandoning module NaniteTools (763)
+[2023.04.04-21.02.43:323][ 99]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (761)
+[2023.04.04-21.02.43:323][ 99]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (759)
+[2023.04.04-21.02.43:323][ 99]LogModuleManager: Shutting down and abandoning module SourceControlWindows (757)
+[2023.04.04-21.02.43:323][ 99]LogModuleManager: Shutting down and abandoning module OutputLog (755)
+[2023.04.04-21.02.43:323][ 99]LogModuleManager: Shutting down and abandoning module Documentation (753)
+[2023.04.04-21.02.43:323][ 99]LogModuleManager: Shutting down and abandoning module LiveCoding (751)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (749)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module MovieScene (747)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (745)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (743)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (741)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module AudioMixer (740)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module AudioMixerCore (739)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module LauncherPlatform (735)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module AnalyticsET (733)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module PortalServices (731)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module PortalRpc (729)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module MessagingRpc (727)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module AIModule (725)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module GameplayDebugger (724)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module AITestSuite (722)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module NavigationSystem (720)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module DataLayerEditor (717)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module EditorWidgets (716)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (713)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (711)
+[2023.04.04-21.02.43:326][ 99]LogModuleManager: Shutting down and abandoning module TypedElementFramework (709)
+[2023.04.04-21.02.43:327][ 99]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (707)
+[2023.04.04-21.02.43:327][ 99]LogModuleManager: Shutting down and abandoning module ProfilerService (705)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module TaskGraph (703)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (701)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module MegascansPlugin (699)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module Bridge (697)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (695)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (693)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module CollectionManager (692)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (689)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (687)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module LightMixer (685)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module SynthesisEditor (683)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module ResonanceAudio (681)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (679)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module OpenXREditor (677)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (675)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (673)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module ModelingOperators (671)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (669)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module ModelingComponents (667)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module GeometryFramework (666)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (663)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module MeshModelingTools (661)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module InputDebugging (659)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module GooglePAD (657)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module DynamicMesh (655)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (653)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (651)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (649)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (647)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module AssetTags (645)
+[2023.04.04-21.02.43:546][ 99]LogModuleManager: Shutting down and abandoning module AudioCapture (643)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (642)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (639)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (637)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module AppleImageUtils (635)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module AndroidPermission (633)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (631)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (629)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module Paper2DEditor (627)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (625)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (623)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (621)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (619)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module VariantManager (617)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (615)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module GLTFMaterialBaking (613)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module GLTFMaterialAnalyzer (611)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (609)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module TakeSequencer (607)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module TakeMovieScene (605)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module MediaCompositing (603)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (601)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module MediaPlate (599)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module ImgMedia (597)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (595)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (593)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (591)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module UObjectPlugin (589)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (587)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module PluginUtils (585)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (583)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module GitSourceControl (581)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (579)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module DumpGPUServices (577)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (575)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module AlembicImporter (573)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module AlembicLibrary (572)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module GeometryCache (571)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (570)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (565)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module InterchangeTests (563)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module TemplateSequence (561)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (559)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module SequencerScripting (557)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (555)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (553)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module PluginBrowser (551)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (549)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (547)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module GLTFImporter (545)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module GLTFCore (543)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (541)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (539)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module EditorDebugTools (537)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (535)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module CryptoKeys (533)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module CurveEditorTools (531)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (529)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (525)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module InterchangeResultsBrowser (523)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (521)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module InterchangeEditor (519)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (517)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (515)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (513)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module InterchangePipelines (511)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module InterchangeExport (509)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module InterchangeMessages (507)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module InterchangeImport (505)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (503)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module InterchangeNodes (501)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module ControlRigSpline (499)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (497)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (495)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (493)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module UVEditorTools (491)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module UVEditor (489)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (487)
+[2023.04.04-21.02.43:547][ 99]LogOpenImageDenoise: OIDN shutting down
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module Iris (485)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (483)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (481)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (479)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (477)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (475)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (473)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (472)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (470)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (467)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module DataflowNodes (465)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module DataflowEditor (463)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (461)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (459)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module ChaosNiagara (457)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module FractureEditor (455)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (453)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (451)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module AutomationUtils (449)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module BackChannel (447)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (445)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module TraceUtilities (443)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (441)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (439)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module InputEditor (437)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module Synthesis (435)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module SoundFields (433)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module SignificanceManager (431)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (429)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (427)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module MetasoundEditor (425)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module AudioWidgets (424)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (423)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (419)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module MetasoundEngine (417)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module WaveTable (416)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (414)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (411)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (409)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (407)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (405)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (403)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (401)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module CableComponent (399)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (397)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (396)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (393)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module Paper2D (391)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (389)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module Niagara (387)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module SignalProcessing (386)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module NiagaraEditor (384)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module NiagaraCore (381)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (379)
+[2023.04.04-21.02.43:547][ 99]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (377)
+[2023.04.04-21.02.43:548][ 99]LogModuleManager: Shutting down and abandoning module ContentBrowser (376)
+[2023.04.04-21.02.43:548][ 99]LogModuleManager: Shutting down and abandoning module ContentBrowserData (375)
+[2023.04.04-21.02.43:548][ 99]LogModuleManager: Shutting down and abandoning module TreeMap (372)
+[2023.04.04-21.02.43:548][ 99]LogModuleManager: Shutting down and abandoning module GameplayCameras (369)
+[2023.04.04-21.02.43:548][ 99]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (367)
+[2023.04.04-21.02.43:548][ 99]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (365)
+[2023.04.04-21.02.43:548][ 99]LogModuleManager: Shutting down and abandoning module AnimationSharing (363)
+[2023.04.04-21.02.43:548][ 99]LogModuleManager: Shutting down and abandoning module TcpMessaging (361)
+[2023.04.04-21.02.43:649][ 99]LogModuleManager: Shutting down and abandoning module UdpMessaging (359)
+[2023.04.04-21.02.43:750][ 99]LogModuleManager: Shutting down and abandoning module ActorSequence (357)
+[2023.04.04-21.02.43:750][ 99]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (355)
+[2023.04.04-21.02.43:750][ 99]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (353)
+[2023.04.04-21.02.43:750][ 99]LogModuleManager: Shutting down and abandoning module FacialAnimation (351)
+[2023.04.04-21.02.43:750][ 99]LogModuleManager: Shutting down and abandoning module DataValidation (349)
+[2023.04.04-21.02.43:750][ 99]LogModuleManager: Shutting down and abandoning module ToolMenus (348)
+[2023.04.04-21.02.43:750][ 99]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (345)
+[2023.04.04-21.02.43:750][ 99]LogModuleManager: Shutting down and abandoning module IKRig (343)
+[2023.04.04-21.02.43:750][ 99]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (341)
+[2023.04.04-21.02.43:750][ 99]LogModuleManager: Shutting down and abandoning module ControlRig (339)
+[2023.04.04-21.02.43:750][ 99]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (337)
+[2023.04.04-21.02.43:750][ 99]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (335)
+[2023.04.04-21.02.43:750][ 99]LogModuleManager: Shutting down and abandoning module PBIK (333)
+[2023.04.04-21.02.43:750][ 99]LogModuleManager: Shutting down and abandoning module FullBodyIK (331)
+[2023.04.04-21.02.43:750][ 99]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (329)
+[2023.04.04-21.02.43:750][ 99]LogModuleManager: Shutting down and abandoning module TakeRecorder (328)
+[2023.04.04-21.02.43:750][ 99]LogModuleManager: Shutting down and abandoning module LevelEditor (326)
+[2023.04.04-21.02.43:751][ 99]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (325)
+[2023.04.04-21.02.43:751][ 99]LogModuleManager: Shutting down and abandoning module LevelAssetEditor (323)
+[2023.04.04-21.02.43:751][ 99]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (321)
+[2023.04.04-21.02.43:751][ 99]LogModuleManager: Shutting down and abandoning module MainFrame (319)
+[2023.04.04-21.02.43:751][ 99]LogModuleManager: Shutting down and abandoning module HotReload (318)
+[2023.04.04-21.02.43:751][ 99]LogModuleManager: Shutting down and abandoning module ChaosCaching (313)
+[2023.04.04-21.02.43:751][ 99]LogModuleManager: Shutting down and abandoning module LevelSequence (312)
+[2023.04.04-21.02.43:751][ 99]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (309)
+[2023.04.04-21.02.43:751][ 99]LogModuleManager: Shutting down and abandoning module EnhancedInput (307)
+[2023.04.04-21.02.43:751][ 99]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (305)
+[2023.04.04-21.02.43:751][ 99]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (303)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module AndroidFileServer (301)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (299)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module PacketHandler (297)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module TimeManagement (295)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module AnimationDataController (293)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (291)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (289)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module MediaAssets (287)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module Overlay (285)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module OverlayEditor (284)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module VREditor (281)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module StringTableEditor (279)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (277)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (275)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module FunctionalTesting (273)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (271)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (270)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module UMG (267)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module UMGEditor (266)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module EditorStyle (261)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module SlateReflector (259)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module Slate (257)
+[2023.04.04-21.02.43:752][ 99]LogModuleManager: Shutting down and abandoning module SlateCore (255)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (253)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (251)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module UnrealEd (249)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module MRMesh (247)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module Messaging (245)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (243)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (241)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module Networking (239)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module Core (237)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module MaterialEditor (235)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module MovieSceneTools (233)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module CurveEditor (232)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module Sequencer (230)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module KismetCompiler (227)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module MeshBuilder (225)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module NaniteBuilder (223)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module MeshUtilities (221)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (220)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (219)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (218)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (216)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (214)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (212)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module MaterialBaking (208)
+[2023.04.04-21.02.43:753][ 99]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (205)
+[2023.04.04-21.02.43:774][ 99]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (201)
+[2023.04.04-21.02.43:774][ 99]LogModuleManager: Shutting down and abandoning module DerivedDataCache (199)
+[2023.04.04-21.02.43:776][ 99]LogModuleManager: Shutting down and abandoning module TargetPlatform (197)
+[2023.04.04-21.02.43:776][ 99]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (196)
+[2023.04.04-21.02.43:776][ 99]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (194)
+[2023.04.04-21.02.43:776][ 99]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (192)
+[2023.04.04-21.02.43:776][ 99]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (190)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (188)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (186)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (184)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module AudioFormatBink (182)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (180)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (173)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (171)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (169)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (167)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (165)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module HoloLensTargetPlatform (163)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (161)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module TextureFormat (159)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (156)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (154)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (152)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (150)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (148)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (146)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module TurnkeySupport (143)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module InputCore (140)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module Settings (138)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (136)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (134)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (133)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module Chaos (130)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module GeometryCore (129)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (126)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (125)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module AVEncoder (124)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module D3D12RHI (120)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (118)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module OpenXRAR (116)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module AugmentedReality (115)
+[2023.04.04-21.02.43:777][ 99]LogModuleManager: Shutting down and abandoning module OpenXRHMD (112)
+[2023.04.04-21.02.43:782][ 99]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (110)
+[2023.04.04-21.02.43:782][ 99]LogModuleManager: Shutting down and abandoning module ChunkDownloader (108)
+[2023.04.04-21.02.43:782][ 99]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (106)
+[2023.04.04-21.02.43:782][ 99]LogModuleManager: Shutting down and abandoning module NiagaraShader (104)
+[2023.04.04-21.02.43:782][ 99]LogModuleManager: Shutting down and abandoning module VariantManagerContent (102)
+[2023.04.04-21.02.43:782][ 99]LogModuleManager: Shutting down and abandoning module GLTFExporter (100)
+[2023.04.04-21.02.43:782][ 99]LogModuleManager: Shutting down and abandoning module DatasmithContent (98)
+[2023.04.04-21.02.43:782][ 99]LogModuleManager: Shutting down and abandoning module WmfMedia (96)
+[2023.04.04-21.02.43:788][ 99]LogModuleManager: Shutting down and abandoning module Media (95)
+[2023.04.04-21.02.43:789][ 99]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (92)
+[2023.04.04-21.02.43:789][ 99]LogModuleManager: Shutting down and abandoning module PixWinPlugin (90)
+[2023.04.04-21.02.43:789][ 99]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (88)
+[2023.04.04-21.02.43:789][ 99]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (86)
+[2023.04.04-21.02.43:789][ 99]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (84)
+[2023.04.04-21.02.43:790][ 99]LogModuleManager: Shutting down and abandoning module XMPP (79)
+[2023.04.04-21.02.43:790][ 99]LogModuleManager: Shutting down and abandoning module WebSockets (78)
+[2023.04.04-21.02.43:813][ 99]LogModuleManager: Shutting down and abandoning module HTTP (75)
+[2023.04.04-21.02.43:813][ 99]LogHttp: Warning: [FHttpManager::Flush] FlushReason was Shutdown. Unbinding delegates for 1 outstanding Http Requests:
+[2023.04.04-21.02.43:813][ 99]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B97DA1C88-463E-4745-F95D-29A75EE89BEF%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.0-23058290%2B%2B%2BUE5%2BRelease-5.1&UserID=7e699dcd4b99c9267ffa9f9a5d108da4%7C%7C8ec8193c-b2d0-4c69-a1b8-9d7898414f00&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2023.04.04-21.02.43:820][ 99]LogModuleManager: Shutting down and abandoning module SSL (74)
+[2023.04.04-21.02.43:821][ 99]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (70)
+[2023.04.04-21.02.43:821][ 99]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (68)
+[2023.04.04-21.02.43:821][ 99]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (66)
+[2023.04.04-21.02.43:821][ 99]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (64)
+[2023.04.04-21.02.43:821][ 99]LogModuleManager: Shutting down and abandoning module AISupportModule (62)
+[2023.04.04-21.02.43:821][ 99]LogModuleManager: Shutting down and abandoning module ChaosCloth (60)
+[2023.04.04-21.02.43:821][ 99]LogModuleManager: Shutting down and abandoning module DesktopPlatform (58)
+[2023.04.04-21.02.43:821][ 99]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (56)
+[2023.04.04-21.02.43:821][ 99]LogModuleManager: Shutting down and abandoning module SourceControl (55)
+[2023.04.04-21.02.43:821][ 99]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (52)
+[2023.04.04-21.02.43:821][ 99]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (50)
+[2023.04.04-21.02.43:821][ 99]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (48)
+[2023.04.04-21.02.43:821][ 99]LogModuleManager: Shutting down and abandoning module PlatformCrypto (46)
+[2023.04.04-21.02.43:821][ 99]LogModuleManager: Shutting down and abandoning module XGEController (44)
+[2023.04.04-21.02.43:821][ 99]LogModuleManager: Shutting down and abandoning module FastBuildController (42)
+[2023.04.04-21.02.43:821][ 99]LogModuleManager: Shutting down and abandoning module AnimationModifiers (40)
+[2023.04.04-21.02.43:822][ 99]LogModuleManager: Shutting down and abandoning module AudioEditor (38)
+[2023.04.04-21.02.43:822][ 99]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2023.04.04-21.02.43:822][ 99]LogModuleManager: Shutting down and abandoning module Virtualization (34)
+[2023.04.04-21.02.43:822][ 99]LogModuleManager: Shutting down and abandoning module MessageLog (33)
+[2023.04.04-21.02.43:822][ 99]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2023.04.04-21.02.43:822][ 99]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2023.04.04-21.02.43:822][ 99]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2023.04.04-21.02.43:822][ 99]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2023.04.04-21.02.43:823][ 99]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2023.04.04-21.02.43:823][ 99]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2023.04.04-21.02.43:823][ 99]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2023.04.04-21.02.43:823][ 99]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2023.04.04-21.02.43:823][ 99]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2023.04.04-21.02.43:823][ 99]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2023.04.04-21.02.43:823][ 99]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2023.04.04-21.02.43:823][ 99]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2023.04.04-21.02.43:823][ 99]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2023.04.04-21.02.43:823][ 99]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2023.04.04-21.02.43:823][ 99]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2023.04.04-21.02.43:915][ 99]LogD3D12RHI: ~FD3D12DynamicRHI
+[2023.04.04-21.02.43:950][ 99]LogExit: Exiting.
+[2023.04.04-21.02.43:960][ 99]Log file closed, 04/04/23 15:02:43
