@@ -20,6 +20,7 @@ NDK 21.3.6528147
 To accomplish the above, follow instructions here https://www.codeprofessionally.com/unreal-engine-packaging-for-android-to-any-unrealengine-version/ 
 
 Installation
+
 After wrapping the project successfully, open the folder you created. Find and double click “Install_vrcl.bat”
 If the installation is successful, the window will automatically disappear.
 Wear the Headset, press the home button on the controller and go back to the main menu. 
