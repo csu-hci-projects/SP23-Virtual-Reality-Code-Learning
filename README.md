@@ -6,14 +6,17 @@ Introduction of technology has always changed education. Blackboards, whiteboard
 
 
 Built With
+
 Unreal Engine 5 
 
 
 Getting Started
+
 Once you have sdk and jdk packages set up on your local machine, run install for your headset. Upon launching the program, the user needs to only sit, look, and listen to the instructions given.
 
 
 Prerequisites
+
 JDK 1.8.0_77 (jdk-8u77-windows-x64.exe)
 SDK 23.0.3//25.0.3//29.0.2//30.0.3//31.0.0//32.0.0
 NDK 21.3.6528147
@@ -27,8 +30,10 @@ Wear the Headset, press the home button on the controller and go back to the mai
 Open the “App Library”, Click the “All” drop box on the top right. Click the “Unknow Sources”. Find the project name.
 
 Usage
+
 The project is designed to be used by a user in a static environment.
 
 
 Acknowledgments
+
 Thank you to Dr. Fransisco Ortega for the instruction.
